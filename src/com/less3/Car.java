@@ -8,8 +8,15 @@ public class Car {
         startElectricity();
         startCommand();
         startFuelSystem();
+        System.out.println("Car is ready!");
     }
-    private void startElectricity(){}
-    private void startCommand(){}
-    private void startFuelSystem(){}
+    private void startElectricity(){
+        System.out.println("Electricity is started!");
+    }
+    private void startCommand(){
+        System.out.println("Command is started!");
+    }
+    private void startFuelSystem(){
+        System.out.println("Fuel system is started!");
+    }
 }
